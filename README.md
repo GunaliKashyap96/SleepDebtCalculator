@@ -22,9 +22,9 @@ The program will display your results, including actual sleep hours, ideal sleep
 This program uses the built-in readline module in Node.js for user input.
 
 # Code Structure
-getSleepHoursInput(): Prompts for sleep hours for a specific day
-getActualSleepHours(): Collects sleep hours for the entire week
-getIdealSleepHours(): Calculates ideal sleep hours (8 hours * 7 days)
-calculateSleepDebt(): Main function that orchestrates the calculation and output
+- `getSleepHoursInput()`: Prompts for sleep hours for a specific day
+- `getActualSleepHours()`: Collects sleep hours for the entire week
+- `getIdealSleepHours()`: Calculates ideal sleep hours (8 hours * 7 days)
+- `calculateSleepDebt()`: Main function that orchestrates the calculation and output
 
 Enjoy tracking your sleep habits with this Sleep Debt Calculator!
