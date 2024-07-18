@@ -1,3 +1,12 @@
+/**
+ * Calculates the user's sleep debt by comparing their actual sleep hours to the ideal sleep hours.
+ * 
+ * The function prompts the user to enter their sleep hours for each day of the week, calculates the total actual sleep hours,
+ * and compares it to the ideal sleep hours. It then outputs whether the user has the perfect amount of sleep, slept too much,
+ * or needs to catch up on sleep.
+ */
+
+
 const readline = require('readline');
 
 const rl = readline.createInterface({
